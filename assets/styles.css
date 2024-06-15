@@ -1,0 +1,167 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background: #010001;
+    color: #ededed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    font-size: 24px;
+}
+
+::selection {
+    background-color: #2b2a2b; 
+}
+
+
+header {
+    background: #010001;
+    border-bottom: 1px solid #ededed20;
+    padding: 1.5rem 0;
+    text-align: center;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+header h1 {
+    color: #d0a95d;
+    margin: 0;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+header nav {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
+
+header nav .back-link {
+    font-size: 1rem;
+    color: #d0a95d;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+header nav .back-link:hover {
+    border-bottom: 1px solid #d0a95d;
+}
+
+main {
+    background: #010001;
+    padding: 3rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    width: 100%;
+    margin: 2rem;
+    border-radius: 8px;
+    text-align: left;
+    color: #ededed;
+}
+
+.profile-picture {
+    float: left;
+    margin-right: 20px;
+}
+
+.profile-picture img {
+    width: 80px; 
+    height: 80px;
+    border-radius: 50px;
+    border: 2px solid #d0a95d;
+}
+
+
+
+h2 {
+    clear: left;
+    margin-top: 0;
+    color: #ededed;
+    font-weight: 300;
+    border-bottom: 1px solid #ededed20;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.project-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project-card {
+    background: #1a1a1a;
+    color: #ededed;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 1.5rem;
+    width: calc(29% - 1rem);
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    color: #d0a95d;
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.project-card p {
+    margin-bottom: 0;
+    font-size: 1rem;
+}
+
+li a {
+    color: #ededed;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s;
+}
+
+li a:hover {
+    border-bottom: 1px solid #ededed;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #010001;
+    width: 100%;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: #ededed;
+}
+
+main img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 2rem auto;
+    border-radius: 8px;
+    border: 1px solid #d0a95d;
+}
+
