@@ -205,3 +205,80 @@ main img:hover {
 }
 
 
+.profile-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.profile-link {
+    background: #1a1a1a;
+    color: #ededed;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.3s ease;
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+}
+
+.profile-links {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.profile-link {
+    background: #1a1a1a;
+    color: #ededed;
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.3s ease;
+    box-shadow: 0 0 0 rgba(255, 255, 255, 0);
+}
+
+.profile-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 0 0.5px rgba(255, 255, 255, 0.444);
+}
+
+.profile-link h3 {
+    color: #d0a95d;
+    margin: 0;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+/* HackTheBox */
+.htb-link:hover {
+    background-color: rgba(159, 239, 0, 0.1);
+}
+.htb-link:hover h3 {
+    color: #c5ff5c;
+}
+
+/* TryHackMe */
+.thm-link:hover {
+    background-color: rgba(193, 17, 17, 0.1);
+}
+.thm-link:hover h3 {
+    color: #ff6b6b;
+}
+
+/* BlueTeamLabs */
+.btl-link:hover {
+    background-color: rgba(44, 53, 108, 0.1);
+}
+.btl-link:hover h3 {
+    color: #7a86b8;
+}
+
+
+.github-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.github-link:hover h3 {
+    color: #ffffffc4;
+}
