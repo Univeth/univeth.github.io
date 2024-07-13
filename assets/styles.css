@@ -44,7 +44,7 @@ header::after {
     position: absolute;
     bottom: 0;
     left: 0;
-    transform: scaleX(0.5); /* Scale the border-bottom to 50% width */
+    transform: scaleX(0.5);
 }
 
 
@@ -105,8 +105,6 @@ main {
     border: 2px solid #d0a95d;
 }
 
-
-
 h2 {
     clear: left;
     margin-top: 50px;
@@ -119,7 +117,6 @@ h2 {
     font-size: 2rem;
     position: relative;
 }
-
 
 
 ul {
@@ -197,7 +194,7 @@ main img {
     margin: 2rem auto;
     border-radius: 8px;
     border: 1px solid #d0a95d;
-    transition: transform 0.2s; /* Add transition here */
+    transition: transform 0.2s;
 }
 
 main img:hover {
@@ -251,7 +248,6 @@ main img:hover {
     transition: color 0.3s ease;
 }
 
-/* HackTheBox */
 .htb-link:hover {
     background-color: rgba(159, 239, 0, 0.1);
 }
@@ -259,7 +255,6 @@ main img:hover {
     color: #c5ff5c;
 }
 
-/* TryHackMe */
 .thm-link:hover {
     background-color: rgba(193, 17, 17, 0.1);
 }
@@ -267,7 +262,6 @@ main img:hover {
     color: #ff6b6b;
 }
 
-/* BlueTeamLabs */
 .btl-link:hover {
     background-color: rgba(44, 53, 108, 0.1);
 }
@@ -275,10 +269,17 @@ main img:hover {
     color: #7a86b8;
 }
 
-
 .github-link:hover {
     background-color: rgba(255, 255, 255, 0.1);
 }
 .github-link:hover h3 {
     color: #ffffffc4;
 }
+
+.cd-link:hover {
+    background-color: rgba(48, 88, 222, 0.1);
+}
+.cd-link:hover h3 {
+    color: #3058de;
+}
+
